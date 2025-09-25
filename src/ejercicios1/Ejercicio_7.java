@@ -1,5 +1,9 @@
 package ejercicios1;
-
+/*
+Programa java que realice lo siguiente: declarar dos variables X e Y de tipo int,
+dos variables N y M de tipo double y asigna a cada una un valor.
+A continuación realiza y muestra por pantalla una serie de operaciones entre ellas.
+ */
 public class Ejercicio_7 {
     public static void main(String[] args) {
         int x = 50;
