@@ -1,5 +1,9 @@
 package ejercicios2;
 
+/*
+Escribe un programa que recoja por teclado tu nombre y luego lo muestre por pantalla.
+ */
+
 import java.util.Scanner;
 
 public class Ejercicio_3 {

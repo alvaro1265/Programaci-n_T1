@@ -1,5 +1,9 @@
 package ejercicios2;
 
+/*
+Programa que lee un número de 3 cifras y muestra sus cifras por separado.
+ */
+
 import java.util.Scanner;
 
 public class Ejercicio_8 {

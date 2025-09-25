@@ -1,5 +1,10 @@
 package ejercicios2;
 
+/*
+Escribe un programa para que muestre tu dirección y tu número de teléfono.
+Asegúrate de que los datos se muestran en líneas separadas
+ */
+
 import java.util.Scanner;
 
 public class Ejercicio_5 {

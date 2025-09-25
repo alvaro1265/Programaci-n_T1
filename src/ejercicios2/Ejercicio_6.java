@@ -1,5 +1,9 @@
 package ejercicios2;
 
+/*
+Programa Java que lea dos números enteros por teclado y los muestre por pantalla.
+ */
+
 import java.util.Scanner;
 
 public class Ejercicio_6 {
@@ -9,6 +13,6 @@ public class Ejercicio_6 {
         int num = scanner.nextInt();
         System.out.println("Escribe un número entero: ");
         int numero = scanner.nextInt();
-        System.out.println("Los números son: " + "\n" + num + "\n" + numero );
+        System.out.println("Los números son: " + "\n" + num + "\n" + numero);
     }
 }
