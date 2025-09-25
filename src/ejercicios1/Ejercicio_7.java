@@ -1,4 +1,5 @@
 package ejercicios1;
+
 /*
 Programa java que realice lo siguiente: declarar dos variables X e Y de tipo int,
 dos variables N y M de tipo double y asigna a cada una un valor.

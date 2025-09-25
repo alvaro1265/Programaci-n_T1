@@ -1,4 +1,5 @@
 package ejercicios1;
+
 /*
 Programa Java que declare una variable A de tipo entero y asígnale un valor.
 A continuación, muestra un mensaje indicando si A es par o impar.

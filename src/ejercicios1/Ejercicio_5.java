@@ -1,4 +1,5 @@
 package ejercicios1;
+
 /*
 Escribir un programa en Java que imprima por pantalla la multiplicación de 1234 y 532.
  */

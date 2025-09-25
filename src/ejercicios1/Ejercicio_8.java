@@ -1,4 +1,5 @@
 package ejercicios1;
+
 /*
 Programa Java que declare una variable entera N y asígnale un valor.
 A continuación, escribe las instrucciones que realicen lo siguiente: Incrementar N en 77,
