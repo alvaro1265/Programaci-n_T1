@@ -46,5 +46,7 @@ public class Ejercicio_14 {
         System.out.println(billetes20 + " billetes de 20€");
         System.out.println(billetes10 + " billetes de 10€");
         System.out.println(billetes5 + " billetes de 5€");
+
+        scanner.close();
     }
 }

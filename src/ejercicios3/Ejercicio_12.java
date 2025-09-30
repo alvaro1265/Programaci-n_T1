@@ -11,10 +11,10 @@ public class Ejercicio_12 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         final double IVA = 0.21;
-
         System.out.println("Introduce el precio del producto: ");
         double precio = scanner.nextDouble();
-
         System.out.println("El precio con IVA es: " + (precio * (1 + IVA)));
+
+        scanner.close();
     }
 }

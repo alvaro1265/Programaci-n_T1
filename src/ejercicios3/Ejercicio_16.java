@@ -24,5 +24,7 @@ public class Ejercicio_16 {
         System.out.println(numero + numero + numero + numero + numero + numero + numero + numero);
         System.out.println(numero + numero + numero + numero + numero + numero + numero + numero + numero);
         System.out.println(numero + numero + numero + numero + numero + numero + numero + numero + numero + numero);
+
+        scanner.close();
     }
 }
