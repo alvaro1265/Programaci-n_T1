@@ -1,4 +1,4 @@
-package ejercicios1;
+package UT1.ejercicios1;
 
 public class MathUtils {
         public static void main (String[] args)

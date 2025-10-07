@@ -1,4 +1,4 @@
-package ejercicios1;
+package UT1.ejercicios1;
 
 /*
 Programa java que realice lo siguiente: declarar dos variables X e Y de tipo int,

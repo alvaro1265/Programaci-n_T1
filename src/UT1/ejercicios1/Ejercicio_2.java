@@ -1,4 +1,4 @@
-package ejercicios1;
+package UT1.ejercicios1;
 
 /*
 Escribir un programa en Java que imprima por pantalla un número entero.

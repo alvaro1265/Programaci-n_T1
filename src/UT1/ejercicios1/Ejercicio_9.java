@@ -1,4 +1,4 @@
-package ejercicios1;
+package UT1.ejercicios1;
 
 /*
 Programa java que declare cuatro variables enteras A, B, C y D y asígnale un valor a cada una.

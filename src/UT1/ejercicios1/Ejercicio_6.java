@@ -1,4 +1,4 @@
-package ejercicios1;
+package UT1.ejercicios1;
 
 /*
 Programa java que realice lo siguiente: declarar una variable N de tipo int,

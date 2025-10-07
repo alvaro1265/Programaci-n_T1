@@ -1,4 +1,4 @@
-package ejercicios1;
+package UT1.ejercicios1;
 
 /*
 Programa Java que declare una variable A de tipo entero y asígnale un valor.

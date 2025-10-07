@@ -1,4 +1,4 @@
-package ejercicios1;
+package UT1.ejercicios1;
 
 /*
 Escribir un programa en Java que imprima por pantalla la suma de 1234 y 532. Debe declararlos como variables antes.
