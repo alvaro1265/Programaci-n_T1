@@ -1,4 +1,4 @@
-package ejercicios2;
+package UT1.ejercicios2;
 
 /*
 Escribe un programa que recoja por teclado tu nombre y luego lo muestre por pantalla.

@@ -1,4 +1,4 @@
-package ejercicios2;
+package UT1.ejercicios2;
 
 /*
 Escribe un programa Java que lee un número entero por teclado y obtiene

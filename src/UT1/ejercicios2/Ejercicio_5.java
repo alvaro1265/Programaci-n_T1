@@ -1,4 +1,4 @@
-package ejercicios2;
+package UT1.ejercicios2;
 
 /*
 Escribe un programa para que muestre tu dirección y tu número de teléfono.

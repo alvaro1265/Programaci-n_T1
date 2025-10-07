@@ -1,4 +1,4 @@
-package ejercicios2;
+package UT1.ejercicios2;
 
 /*
 Programa Java que lea dos números enteros por teclado y los muestre por pantalla.
