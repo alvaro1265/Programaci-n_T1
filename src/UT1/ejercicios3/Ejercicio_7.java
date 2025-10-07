@@ -1,4 +1,4 @@
-package ejercicios3;
+package UT1.ejercicios3;
 
 /*
 Programa que lea un carácter por teclado y compruebe si es una letra mayúscula.

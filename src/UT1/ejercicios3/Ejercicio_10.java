@@ -1,4 +1,4 @@
-package ejercicios3;
+package UT1.ejercicios3;
 
 /*
 Desarrolla un programa que solicite 3 números y compruebe si están ordenados.

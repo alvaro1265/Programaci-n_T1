@@ -1,4 +1,4 @@
-package ejercicios3;
+package UT1.ejercicios3;
 
 /*
 Crea un programa que compruebe si un año es bisiesto.

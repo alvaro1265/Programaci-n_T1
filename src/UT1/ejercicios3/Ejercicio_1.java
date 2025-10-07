@@ -1,4 +1,4 @@
-package ejercicios3;
+package UT1.ejercicios3;
 
 /*
 Programa Java que lea un número entero y calcule si es par o impar.

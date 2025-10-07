@@ -1,4 +1,4 @@
-package ejercicios3;
+package UT1.ejercicios3;
 
 /*
 Programa que lea dos números por teclado y muestre el resultado de la división del primero por el segundo.

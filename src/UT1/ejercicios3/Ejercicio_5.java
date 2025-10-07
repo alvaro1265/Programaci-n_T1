@@ -1,4 +1,4 @@
-package ejercicios3;
+package UT1.ejercicios3;
 
 /*
 Programa que lea dos caracteres por teclado y compruebe si son iguales.

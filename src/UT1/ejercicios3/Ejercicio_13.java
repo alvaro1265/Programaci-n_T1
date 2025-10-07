@@ -1,4 +1,4 @@
-package ejercicios3;
+package UT1.ejercicios3;
 
 /*
 Realiza un programa que nos pida cuantos segundos duró un concierto, y nos calcule cuántas horas, minutos y segundos son.

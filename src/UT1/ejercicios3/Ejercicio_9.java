@@ -1,4 +1,4 @@
-package ejercicios3;
+package UT1.ejercicios3;
 
 /*
 Desarrolla un programa que indique el peso que tienes en la luna.

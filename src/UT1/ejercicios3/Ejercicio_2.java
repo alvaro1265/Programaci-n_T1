@@ -1,4 +1,4 @@
-package ejercicios3;
+package UT1.ejercicios3;
 
 /*
 Programa que lea un número entero y muestre si el número es múltiplo de 10.

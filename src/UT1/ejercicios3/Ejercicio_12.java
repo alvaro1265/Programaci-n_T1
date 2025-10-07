@@ -1,4 +1,4 @@
-package ejercicios3;
+package UT1.ejercicios3;
 
 /*
 Lee un número por teclado que pida el precio de un producto (puede tener decimales) y calcule el precio final con IVA.

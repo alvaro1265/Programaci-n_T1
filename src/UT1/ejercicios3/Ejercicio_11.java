@@ -1,4 +1,4 @@
-package ejercicios3;
+package UT1.ejercicios3;
 
 /*
 Crea un programa que pida cuál es el radio de una circunferencia y nos calcule cuál es la longitud y el área.

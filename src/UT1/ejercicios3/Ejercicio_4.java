@@ -1,4 +1,4 @@
-package ejercicios3;
+package UT1.ejercicios3;
 
 /*
 Desarrolla un programa que compruebe si un número introducido por teclado es múltiplo de 7.
