@@ -16,6 +16,6 @@ public class Ejercicio_5 {
 
         char caracter = scanner.nextLine().charAt(0);
         System.out.println((caracter == letra) ? "Son iguales" : "No son iguales");
-
+        scanner.close();
     }
 }

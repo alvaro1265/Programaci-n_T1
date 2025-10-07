@@ -13,6 +13,6 @@ public class Ejercicio_3 {
 
         int numero = scanner.nextInt();
         System.out.println((numero >= 18) ? "Eres mayor de edad" : "Eres menor de edad");
-
+        scanner.close();
     }
 }

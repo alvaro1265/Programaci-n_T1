@@ -11,8 +11,8 @@ public class Ejercicio_4 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduce un numero: ");
 
-        int numero =scanner.nextInt();
+        int numero = scanner.nextInt();
         System.out.println((numero % 7 == 0) ? "Es multiplo de 7" : "No es multiplo de 7");
-
+        scanner.close();
     }
 }
