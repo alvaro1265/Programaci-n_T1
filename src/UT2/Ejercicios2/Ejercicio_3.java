@@ -10,7 +10,7 @@ public class Ejercicio_3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduce un la nota (1 al 10): ");
-        int nota = scanner.nextInt();
+        double nota = scanner.nextDouble();
         if (nota >= 1 && nota < 5) {
             System.out.println("Insuficiente");
         } else if (nota == 5) {
