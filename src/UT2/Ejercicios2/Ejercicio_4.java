@@ -23,5 +23,6 @@ public class Ejercicio_4 {
             }
         }
         System.out.println("El numero es: " + cifra);
+        scanner.close();
     }
 }
