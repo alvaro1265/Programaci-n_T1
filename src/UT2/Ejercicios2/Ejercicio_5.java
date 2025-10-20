@@ -19,9 +19,9 @@ public class Ejercicio_5 {
         System.out.println("Introduce una numero: ");
         int numero = scanner.nextInt();
         int i = 1;
-        while (i <= numero){
+        while (i <= numero) {
             int j = 1;
-            while (j <= i){
+            while (j <= i) {
                 System.out.print(j + " ");
                 j++;
             }
