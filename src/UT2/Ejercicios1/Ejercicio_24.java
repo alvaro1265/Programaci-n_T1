@@ -31,7 +31,7 @@ public class Ejercicio_24 {
                 System.out.println("No es capicua");
             }
         } else {
-            System.out.println("No puedes introducir este numero");
+            System.out.println("El numero esta fuera de rango");
         }
         scanner.close();
     }
