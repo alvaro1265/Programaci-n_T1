@@ -15,7 +15,7 @@ public class Ejercicio_23 {
         double suma = 0;
         int numero;
 
-        while (i < 5){
+        while (i < 5) {
             System.out.println("Introduce un número (se detiene al escribir 5 ceros): ");
             numero = scanner.nextInt();
 

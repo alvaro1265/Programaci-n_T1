@@ -20,11 +20,11 @@ public class Ejercicio_21 {
                 i++;
             }
         } while (numero != 0);
-            if (i > 0) {
-                double media = suma / i;
-                System.out.println("La media es: " + media);
-            } else {
-                System.out.println("No se puede realizar la operacion");
+        if (i > 0) {
+            double media = suma / i;
+            System.out.println("La media es: " + media);
+        } else {
+            System.out.println("No se puede realizar la operacion");
         }
         scanner.close();
     }

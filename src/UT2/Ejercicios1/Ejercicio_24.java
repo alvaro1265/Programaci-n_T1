@@ -13,11 +13,11 @@ public class Ejercicio_24 {
         if (numero < 10) {
             System.out.println("Es capicua");
         } else if (numero < 100) {
-           if (numero / 10 == numero % 10){
-               System.out.println("Es capicua");
-           } else {
-               System.out.println("No es capicua");
-           }
+            if (numero / 10 == numero % 10) {
+                System.out.println("Es capicua");
+            } else {
+                System.out.println("No es capicua");
+            }
         } else if (numero < 1000) {
             if (numero / 100 == numero % 10) {
                 System.out.println("Es capicua");
@@ -25,7 +25,7 @@ public class Ejercicio_24 {
                 System.out.println("No es capicua");
             }
         } else if (numero < 10000) {
-            if ((numero / 1000 == numero % 10) && (numero / 100 % 10 == numero / 10 % 10)){
+            if ((numero / 1000 == numero % 10) && (numero / 100 % 10 == numero / 10 % 10)) {
                 System.out.println("Es capicua");
             } else {
                 System.out.println("No es capicua");
