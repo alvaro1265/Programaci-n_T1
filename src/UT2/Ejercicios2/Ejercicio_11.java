@@ -25,5 +25,6 @@ public class Ejercicio_11 {
                 System.out.println("Ingrese un numero más pequeño: ");
             }
         }
+        scanner.close();
     }
 }

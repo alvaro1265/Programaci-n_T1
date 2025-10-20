@@ -20,5 +20,6 @@ public class Ejercicio_10 {
             suma2 = suma;
             suma = suma3;
         }
+        scanner.close();
     }
 }
