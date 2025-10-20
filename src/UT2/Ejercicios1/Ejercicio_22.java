@@ -18,7 +18,7 @@ public class Ejercicio_22 {
         boolean repetido = false;
 
         do {
-            System.out.println("Introduce el numero (Numero negativo para terminar): ");
+            System.out.println("Introduce el numero: ");
             numero = scanner.nextInt();
             if (numero >= 0) {
                 if (numero == antes) {

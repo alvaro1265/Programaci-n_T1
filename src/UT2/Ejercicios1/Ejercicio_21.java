@@ -12,7 +12,6 @@ public class Ejercicio_21 {
         int i = 0;
         double suma = 0;
         int numero;
-
         do {
             System.out.println("Introduce el numero (Escribe 0 para terminar): ");
             numero = scanner.nextInt();
@@ -21,11 +20,11 @@ public class Ejercicio_21 {
                 i++;
             }
         } while (numero != 0);
-        if (i > 0) {
-            double media = suma / i;
-            System.out.println("La media es: " + media);
-        } else {
-            System.out.println("No se puede realizar la operacion");
+            if (i > 0) {
+                double media = suma / i;
+                System.out.println("La media es: " + media);
+            } else {
+                System.out.println("No se puede realizar la operacion");
         }
         scanner.close();
     }
