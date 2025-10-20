@@ -18,10 +18,14 @@ public class Ejercicio_5 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduce una numero: ");
         int numero = scanner.nextInt();
-        for (int i = 1; i <= numero; i++) {
-            for (int j = 1; j <= i; j++) {
+        int i = 1;
+        while (i <= numero){
+            int j = 1;
+            while (j <= i){
                 System.out.print(j + " ");
+                j++;
             }
+            i++;
             System.out.println();
         }
         scanner.close();
