@@ -1,7 +1,7 @@
 package EjerciciosDeFunciones;
 
 /*
-
+Define un metodo sumar que reciba dos enteros y retorne su suma.
 */
 
 public class Ejercicio_2 {

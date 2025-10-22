@@ -1,5 +1,9 @@
 package EjerciciosDeFunciones;
 
+/*
+Implementa un metodo que reciba un nombre y edad y muestre un mensaje personalizado.
+*/
+
 import java.util.Scanner;
 
 public class Ejercicio_3 {

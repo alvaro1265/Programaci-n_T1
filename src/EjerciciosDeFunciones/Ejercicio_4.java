@@ -1,5 +1,9 @@
 package EjerciciosDeFunciones;
 
+/*
+Escribe un metodo para calcular el área de un rectángulo dados base y altura.
+*/
+
 import java.util.Scanner;
 
 public class Ejercicio_4 {
