@@ -27,7 +27,6 @@ public class Ejercicio_1B {
             }
             System.out.println();
             i++;
-
         }
         i = altura - 1;
         while (i >= 1) {
