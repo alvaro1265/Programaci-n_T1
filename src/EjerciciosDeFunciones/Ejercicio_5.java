@@ -1,5 +1,9 @@
 package EjerciciosDeFunciones;
 
+/*
+Crea una funcion que te devuelva el mayor de 3 números
+*/
+
 import java.util.Scanner;
 
 public class Ejercicio_5 {
