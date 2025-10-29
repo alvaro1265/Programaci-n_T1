@@ -23,10 +23,8 @@ precio final seguro
         double precioSeguro = preciofinal(precioinicial, edad, accidente);
         System.out.println("El precio del seguro seria: " + precioSeguro + " € ");
         System.out.println("Quiere contratarlo? true/false");
-       // if (boolean contratar = scanner.nextBoolean()) {
-        //    System.out.println(ContratarSeguros(a));
-        //}
-
+        boolean contratarlo = scanner.nextBoolean();
+        ContratarSeguros(contratarlo);
 
         scanner.close();
     }
@@ -44,8 +42,8 @@ precio final seguro
         }
         return precioinicial;
     }
-    static void ContratarSeguros(boolean a) {
-        if (a) {
+    static void ContratarSeguros(boolean contratar) {
+        if (contratar) {
             System.out.println("Seguro contratado");
         } else {
             System.out.println("Contratacion cancelada");
