@@ -23,13 +23,16 @@ public class Ejercicio_10 {
         System.out.println("Suma de 3 números: " + sumar(num1, num2, num3));
         System.out.println("Suma de 4 números: " + sumar(num1, num2, num3, num4));
     }
-    static int sumar (int a, int b) {
+
+    static int sumar(int a, int b) {
         return a + b;
     }
-    static int sumar (int a, int b, int c) {
+
+    static int sumar(int a, int b, int c) {
         return a + b + c;
     }
-    static int sumar (int a, int b, int c, int d) {
+
+    static int sumar(int a, int b, int c, int d) {
         return a + b + c + d;
     }
 }
