@@ -12,17 +12,24 @@ public class Ejercicio_1 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduce un numero:");
         int primos = scanner.nextInt();
-        int primos5 = primos(1);
-        System.out.println(primos);
+
         scanner.close();
-        System.out.println(primos5);
-    }
-    static int primos (int numero) {
-        if (numero == 1) {
-            return 1;
+
+        boolean resultado = primos(primos, 2);
+        if (resultado) {
+            System.out.println(primos + " Es primo");
         } else {
-            System.out.println("Es primo");
-            return numero * primos(primos(+primos(+41)));
+            System.out.println(primos + " No es primo");
         }
+    }
+    static boolean primos (int n, int i) {
+        if (n <= 1) {
+            return false;
+        } else if (i * i > n){
+            return true;
+        } else if (n % i == 0) {
+            return false;
+        }
+        return primos(n, i + 1);
     }
 }
