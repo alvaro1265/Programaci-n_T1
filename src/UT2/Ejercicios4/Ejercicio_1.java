@@ -22,10 +22,11 @@ public class Ejercicio_1 {
             System.out.println(primos + " No es primo");
         }
     }
-    static boolean primos (int n, int i) {
+
+    static boolean primos(int n, int i) {
         if (n <= 1) {
             return false;
-        } else if (i * i > n){
+        } else if (i * i > n) {
             return true;
         } else if (n % i == 0) {
             return false;
