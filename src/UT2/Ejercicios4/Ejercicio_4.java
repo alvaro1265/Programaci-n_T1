@@ -22,15 +22,17 @@ public class Ejercicio_4 {
         scanner.close();
 
         float resultado = redondear(numero, decimales);
-        System.out.println(" " + resultado);
+        System.out.println("Numero redondeado: " + resultado);
 
     }
 
     static float redondear(float a, int n) {
-        if (a == 0) {
-            return a;
+        if (n == 0) {
+            return Math.round(a);
         } else {
-            return Math.round((double) n);
+            a *= 10;
+            float resultado = redondear(a, n - 1);
+            return resultado / 10;
         }
     }
 }
