@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Ejercicio_arraydearrays {
     public static void main(String[] args) {
         //con array simplificado
-        /*
+
         int[] cadena1 = {1, 2, 3};
         int[] cadena2 = {4, 5, 6};
 
@@ -16,10 +16,8 @@ public class Ejercicio_arraydearrays {
         for (int[] conjunto : conjuncion) {
             System.out.println(Arrays.toString(conjunto));
         }
-        */
 
-        Scanner scanner = new Scanner(System.in);
-
+        //array
         int[][] union = new int[2][3];
         int k = 1;
 
