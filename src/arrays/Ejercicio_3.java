@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.Scanner;
 
-public class Ejerccicio_3 {
+public class Ejercicio_3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("cuantos datos vas a meter");
