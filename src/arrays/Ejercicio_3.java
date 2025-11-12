@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class Ejercicio_3 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("cuantos datos vas a meter");
-        int cantidadDatos = sc.nextInt();
+        int cantidadDatos = scanner.nextInt();
 
         String[] nombres = new String[cantidadDatos];
 
@@ -14,16 +14,16 @@ public class Ejercicio_3 {
 
         for (int i = 0; i < cantidadDatos; i++) {
             System.out.println("escribe el nombre");
-            String nombre = sc.next();
+            String nombre = scanner.next();
             nombres[i] = nombre;
 
             System.out.println("ahora escribe el numero");
-            telefonos[i] = sc.nextInt();
+            telefonos[i] = scanner.nextInt();
 
             System.out.println("Nombre: " + nombres[i] + " Telefono: " + telefonos[i]);
         }
 
-        sc.close();
+        scanner.close();
 
     }
 }
