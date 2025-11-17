@@ -5,6 +5,7 @@ Desarrolla un programa que ordene los índices de un array de enteros, en funci�
 de mayor a menor, es decir, hay que almacenar en otro array el índice del array original, en función del contenido del último
 */
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Random;
 
@@ -19,9 +20,22 @@ public class Ejercicio_4 {
 
         System.out.println("Array original: " + Arrays.toString(numero));
 
+        int[] indices = new int[numero.length];
         for (int i = 0; i < numero.length; i++) {
-            Arrays.sort(numero);
-            System.out.println(Arrays.toString(numero));
+            indices[i] = i;
         }
+
+        for (int i = 0; i < 5 - 1; i++) {
+            for (int j = 0; j < 5 - 1 - i; j++) {
+                if (numero[indices[j]] < numero[indices[j + 1]]) {
+
+                    int x = indices[j];
+                    indices[j] = indices[j + 1];
+                    indices[j + 1] = x;
+                }
+            }
+        }
+
+        System.out.println("Array resultado: " + Arrays.toString(indices));
     }
 }
