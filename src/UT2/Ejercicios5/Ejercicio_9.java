@@ -50,6 +50,7 @@ public class Ejercicio_9 {
             k++;
         }
         while (j < lista2.length) {
+
             conjunto[k] = lista2[j];
             j++;
             k++;
