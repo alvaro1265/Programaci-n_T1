@@ -18,7 +18,7 @@ public class Ejercicio_9 {
         for (int i = 0; i < lista1.length; i++) {
             lista1[i] = r.nextInt(20);
         }
-        for (int j = 0; j < lista2.length; j++){
+        for (int j = 0; j < lista2.length; j++) {
             lista2[j] = r.nextInt(20);
         }
 
@@ -35,7 +35,7 @@ public class Ejercicio_9 {
         int k = 0;
 
         while (i < lista1.length && j < lista2.length) {
-            if (lista1[i] < lista2[j]){
+            if (lista1[i] < lista2[j]) {
                 conjunto[k] = lista1[i];
                 i++;
             } else {
@@ -44,7 +44,7 @@ public class Ejercicio_9 {
             }
             k++;
         }
-        while (i < lista1.length){
+        while (i < lista1.length) {
             conjunto[k] = lista1[i];
             i++;
             k++;

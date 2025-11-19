@@ -8,20 +8,21 @@ import java.util.Arrays;
 
 public class Ejercicio_10 {
     public static void main(String[] args) {
-        int[] fila = new int[5];
-        int[] columna = new int[5];
+        int[][] tabla = new int[5][5];
 
-        int[] tabla = new int[fila.length + columna.length];
-
-        int k = 1;
-        for (int i = 0; i <= tabla.length; i++) {
-            for (int j = i; j < tabla.length; j++) {
-                //tabla[i][j] = k++;
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
+                int suma = i + j;
+                if (suma <= 5 - 1) {
+                    tabla[i][j] = suma;
+                } else {
+                    tabla[i][j] = 2 * (5 - 1) - suma;
+                }
             }
+        }
 
-            //for (int[] fila : tabla){
-                System.out.println(Arrays.toString(fila));
-            }
+        for (int[] conjunto : tabla) {
+            System.out.println(Arrays.toString(conjunto));
         }
     }
 }
