@@ -8,12 +8,20 @@ import java.util.Arrays;
 
 public class Ejercicio_10 {
     public static void main(String[] args) {
-        int[][] tabla = new int[5][5];
-        for (int i = 0; i < tabla.length; i++) {
-            for (int j = 0; j < i; j++){
-               // System.out.print(Arrays.toString(i));
+        int[] fila = new int[5];
+        int[] columna = new int[5];
+
+        int[] tabla = new int[fila.length + columna.length];
+
+        int k = 1;
+        for (int i = 0; i <= tabla.length; i++) {
+            for (int j = i; j < tabla.length; j++) {
+                //tabla[i][j] = k++;
             }
-            System.out.println();
+
+            //for (int[] fila : tabla){
+                System.out.println(Arrays.toString(fila));
+            }
         }
     }
 }
