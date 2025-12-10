@@ -16,9 +16,11 @@ public class Ejercicio_2 {
 
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Introduce una frase: ");
         String frase = scanner.nextLine();
         scanner.close();
 
-        System.out.println(frase.indexOf(frase));
+        String[] palabras = frase.split(" ");
+        System.out.println(palabras.length);
     }
 }
