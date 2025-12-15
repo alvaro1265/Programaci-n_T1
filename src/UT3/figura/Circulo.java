@@ -1,4 +1,4 @@
-package UT3;
+package UT3.figura;
 
 public class Circulo {
     private double radio;

@@ -1,4 +1,4 @@
-package UT3;
+package UT3.bombilla;
 
 public class Bombilla {
     boolean encendida;

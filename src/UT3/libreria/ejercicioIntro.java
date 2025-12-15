@@ -1,4 +1,4 @@
-package UT3;
+package UT3.libreria;
 
 public class ejercicioIntro {
 
