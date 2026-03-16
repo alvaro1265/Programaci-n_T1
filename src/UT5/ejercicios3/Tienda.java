@@ -10,4 +10,18 @@ public class Tienda {
     List<Videojuego> inventario = new ArrayList<>();
     List<Cliente> clientes = new ArrayList<>();
     List<Venta> ventas = new ArrayList<>();
+
+    public void anadirVideojuego (Videojuego videojuego) {
+        inventario.add(videojuego);
+    }
+
+    public void mostrarInventario() {
+        for (Videojuego videojuego : inventario) {
+            System.out.println(videojuego);
+        }
+    }
+
+    public void consultaProducto() {
+
+    }
 }
