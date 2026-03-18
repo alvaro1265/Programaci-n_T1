@@ -5,17 +5,17 @@ import java.util.List;
 
 public class Venta {
 
-    Clientes clientes;
+    Cliente clientes;
     List<Videojuego> videojuego;
     private LocalDate fechaVenta;
 
-    public Venta(Clientes clientes, List<Videojuego> videojuego, LocalDate fechaVenta) {
+    public Venta(Cliente clientes, List<Videojuego> videojuego, LocalDate fechaVenta) {
         this.clientes = clientes;
         this.videojuego = videojuego;
         this.fechaVenta = fechaVenta;
     }
 
-    public Clientes getClientes() {
+    public Cliente getClientes() {
         return clientes;
     }
 
