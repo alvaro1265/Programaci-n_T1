@@ -12,7 +12,7 @@ public class Videojuego {
     private UUID codigoIdentificador;
 
 
-    public Videojuego(String titulo, String plataforma, String genero, int precio, int stockcodigoIdentificador) {
+    public Videojuego(String titulo, String plataforma, String genero, int precio, int stock) {
         this.titulo = titulo;
         this.plataforma = plataforma;
         this.genero = genero;

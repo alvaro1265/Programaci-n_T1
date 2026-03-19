@@ -1,6 +1,5 @@
 package UT5.ejercicios3;
 
-import UT5.ejercicios2.Cliente;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -43,7 +42,7 @@ public class Tienda {
 
     public Cliente buscarCliente(int codigo) {
         for (Cliente cliente : clientes) {
-            if (cliente.get() == codigo) {
+            if (cliente.getCodigoCliente().equals(codigo)) {
                 return cliente;
             }
         }
@@ -51,15 +50,18 @@ public class Tienda {
     }
 
     public void registrarVenta(int codigoCliente, List<Videojuego> juegos) {
-        for (Videojuego v : juegos) {
-            if (v.getStock() > 0) {
-                v.reducirStock(1);
+        for (Videojuego videojuego : juegos) {
+            if (videojuego.getStock() > 0) {
+                videojuego.venderUnidad();
             } else {
-                System.out.println("Sin stock de " + v.getTitulo());
+                System.out.println("Sin stock de " + videojuego.getTitulo());
             }
         }
-        Venta venta = new Venta(codigoCliente, juegos);
-        ventas.add(venta);
+        Cliente cliente = buscarCliente(codigoCliente);
+        if (cliente != null) {
+            Venta venta = new Venta(cliente, juegos, LocalDate.now());
+            ventas.add(venta);
+        }
     }
 
     public void mostrarVentas() {
@@ -70,8 +72,9 @@ public class Tienda {
 
     public void ventasPorFecha(LocalDate fecha) {
         for (Venta v : ventas) {
-            if (v.getFecha().equals(fecha)) {
+            if (v.getFechaVenta().equals(fecha)) {
                 System.out.println(v);
             }
         }
+    }
 }
