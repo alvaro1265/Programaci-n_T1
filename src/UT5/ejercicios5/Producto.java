@@ -1,5 +1,7 @@
 package UT5.ejercicios5;
 
+import java.util.Objects;
+
 public class Producto {
     private String id;
     private String modelo;
@@ -28,4 +30,15 @@ public class Producto {
     // TODO: TAREA DEL ALUMNO
     // Implementar equals y hashCode basándose ÚNICAMENTE en el 'id'.
     // Recordad que sin esto, el Set no detectará duplicados.
+
+    @Override
+    public boolean equals(Object o) {
+        if (!(o instanceof Producto producto)) return false;
+        return Objects.equals(id, producto.id);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(id);
+    }
 }
