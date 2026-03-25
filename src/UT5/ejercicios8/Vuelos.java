@@ -83,27 +83,63 @@ public class Vuelos {
         Map<String, Map<String, Double>> vuelosPasajerosCoste
     ) {
         // TODO
-        return null;
+        return vuelosPasajerosCoste.keySet();
     }
 
     public static Double getBilleteMasCaro(
         Map<String, Map<String, Double>> vuelosPasajerosCoste
     ) {
         // TODO
-        return 0.0;
+        double max = 0.0;
+
+        for(Map<String, Double> pasajeros : vuelosPasajerosCoste.values()) {
+            for (Double precio : pasajeros.values()) {
+                if (precio > max) {
+                    max = precio;
+                }
+            }
+        }
+        return max;
     }
 
     public static Map<String, Double> getPreciosMedios(
         Map<String, Map<String, Double>> vuelosPasajerosCoste
     ) {
         // TODO
-        return null;
+        Map<String, Double> medios = new HashMap<>();
+
+        for (String vuelo : vuelosPasajerosCoste.keySet()) {
+            Map<String, Double> pasajeros = vuelosPasajerosCoste.get(vuelo);
+
+            double suma = 0;
+            for (Double precio : pasajeros.values()) {
+                suma += precio;
+            }
+
+            double media = suma / pasajeros.size();
+            medios.put(vuelo, media);
+        }
+        return medios;
     }
 
     public static Map<String, Double> getGastoPorDNI(
         Map<String, Map<String, Double>> vuelosPasajerosCoste
     ) {
         // TODO
-        return null;
+
+        Map<String, Double> dasto = new HashMap<>();
+
+        for (Map<String, Double> pasajeros : vuelosPasajerosCoste.values()) {
+            for (String dni : pasajeros.keySet()) {
+                double precio = pasajeros.get(dni);
+
+                if (dasto.containsKey(dni)) {
+                    dasto.put(dni, dasto.get(dni) + precio);
+                }else {
+                    dasto.put(dni, precio);
+                }
+            }
+        }
+        return dasto;
     }
 }
